@@ -1,0 +1,248 @@
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin: 10px auto;
+    width: 600px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #5e505f;
+}
+
+.health {
+	position: absolute;
+	top: 20px;
+	left: 386px;
+}
+
+.current-health,
+.default-health {
+	width: 100px;
+	height: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.current-health {
+	background: rgba(179, 85, 120, 0.67);
+	transition: all 0.5s linear;
+}
+
+.default-health {
+	border: 2px solid red;
+	position: absolute;
+	top: 0;
+}
+
+.current-health-100 {
+	width: 100px;
+}
+
+.current-health-80 {
+	width: 80px;
+}
+
+.current-health-60 {
+	width: 60px;
+}
+
+.current-health-40 {
+	width: 40px;
+}
+
+.current-health-20 {
+	width: 20px;
+}
+
+.game-over {
+    width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgb(47, 45, 45);
+    transition: all 2s;
+    text-align: center;
+    color: white;
+}
+
+.timer {
+	display: none;
+}
+
+.total-score {
+	display: none;
+    color: #ab6363;
+}
+
+canvas {
+	border: 1px solid black;
+}
+
+.name-fail {
+	border: 2px solid red;
+}
+
+.wrapper,
+.game-over {
+	display: none;
+}
+
+.landing .content {
+    width: 1180px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.block {
+    height: 613px;
+    position: relative;
+}
+
+.first-block {
+    background: url(../img/landing/bg.png);
+    background-size: contain;
+    text-align: center;
+}
+
+.title {
+    transform: translateY(100%);
+    margin: 0;
+    font-size: 96px;
+    font-family: Arial;
+}
+
+.girl {
+    position: relative;
+    top: 180px;
+    right: 120px;
+    transform: scaleX(-1);
+}
+
+.second-block {
+	background: url(../img/landing/clouds.jpg);
+	margin-top: -2px;
+}
+
+.second-block .description {
+	margin: 0;
+}
+
+.sheep {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.description {
+	font-size: 46px;
+    font-family: Arial;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 80px;
+    color: white;
+}
+
+.arrows {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+.arrows-description {
+	display: block;
+    position: absolute;
+    left: 20px;
+    bottom: 250px;
+    font-size: 46px;
+    color: rgba(119, 147, 154, 0.73);
+}
+
+.third-block {
+	background: url(../img/landing/clouds-reversed.jpeg);
+	background-position-y: -185px;
+}
+
+.timer-img {
+    position: absolute;
+    left: 50px;
+    width: 150px;
+    top: 50px;
+}
+
+.text {
+    font-size: 46px;
+    font-family: Arial;
+}
+
+.timer-game {
+	position: absolute;
+    top: 120px;
+    left: 250px;
+}
+
+.btn {
+	position: absolute;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px grey;
+    font-size: 15px;
+}
+
+.stop-btn {
+    position: static;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #ee7a86;
+}
+
+.game-on-time {
+    right: 425px;
+    top: 119px;
+    background: rgb(202, 161, 212);
+    outline: none;
+}
+
+.girl-img {
+    position: absolute;
+    right: 40px;
+    top: 270px;
+    width: 270px;
+}
+
+.standard-game {
+    position: absolute;
+    bottom: 270px;
+    right: 350px;
+}
+
+.default-game {
+    bottom: 265px;
+    left: 300px;
+    background: #6abee6;
+}
+
+.skull-img {
+	width: 140px;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+.hard-game {
+	position: absolute;
+    bottom: 100px;
+    left: 245px;
+}
+
+.hardcore-game {
+	bottom: 95px;
+    left: 570px;
+    background: rgba(222, 52, 52, 0.75);
+}

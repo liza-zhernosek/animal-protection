@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Animal Protection</title>
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="health">
+        <div class="current-health current-health-100"></div>
+        <div class="default-health"></div>
+      </div>
+      <canvas width="600px" height="300px"></canvas>
+      <button class="btn stop-btn">STOP</button>
+      <h1 class="score">0</h1>
+      <h1 class="level">YOUR LEVEL: </h1>
+      <h1 class="timer">60</h1>
+    </main>
+    <div class="game-over">
+      <h1 class="total-score">YOUR TOTAL SCORE:</h1>
+    </div>
+    <div class="landing">
+      <div class="content">
+        <article class="block first-block">
+          <h1 class="title">Animal Protection</h1>
+          <img class="girl" src="./img/landing/girl-big.png" alt="Hero" />
+        </article>
+        <article class="block second-block">
+          <p class="description">
+            This game is about the girl which rescue animals...
+          </p>
+          <span class="arrows-description">Buttons to control hero</span>
+          <img class="arrows" src="./img/landing/arrows.png" alt="Arrwos" />
+          <img src="./img/landing/sheep.png" class="sheep" alt="sheep" />
+        </article>
+        <article class="block third-block">
+          <img class="timer-img" alt="timer" src="./img/landing/timer.png" />
+          <span class="text timer-game">Play on time</span>
+          <button class="btn game-on-time">START GAME ON TIME</button>
+          <img class="girl-img" alt="girl" src="./img/landing/girl-big.png" />
+          <span class="text standard-game">Play on score</span>
+          <button class="btn default-game">DEFAULT GAME</button>
+          <img class="skull-img" alt="skull" src="./img/landing/skull.png" />
+          <span class="text hard-game">Play hardcore</span>
+          <button class="btn hardcore-game">HARDCORE GAME</button>
+        </article>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
